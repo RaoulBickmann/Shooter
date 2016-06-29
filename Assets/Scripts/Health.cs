@@ -36,7 +36,7 @@ public class Health : NetworkBehaviour {
 			else {
 				currentHealth = maxHealth;
 
-				// called on the Server, invoked on the Clients
+				// called on the Server, invoked on the Clients 123
 				RpcRespawn();
 			}
 		}
